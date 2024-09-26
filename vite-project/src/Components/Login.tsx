@@ -11,19 +11,7 @@ export default function Login() {
             <div>
             <label htmlFor="department">Department:</label>
             </div>
-            <div>
-            <select
-  name="department"
-  id="department"
-  className='h-[40px] p-2 border-black border-b-2 border-solid bg-white w-[250px] focus:outline-blue-600'
-  defaultValue=""
->
-    <option value="" disabled>Select Department</option>
-    <option value="HR">CS</option>
-    <option value="Finance">AI</option>
-    <option value="IT">IT</option>
-</select>
-        </div>
+  
        </div>
        <p className="m-3 text-sm">Don't have an account? <Link to="/signup" className="text-blue-800 ">Signup</Link></p>
         <div className='flex justify-end p-3'>
